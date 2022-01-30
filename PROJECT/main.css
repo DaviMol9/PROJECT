@@ -35,7 +35,7 @@ p {
 }
 
 .main-page-wrapper {
-	background: url(/img/background-up.png) center top no-repeat, url(/img/background-down.png) center bottom -18px no-repeat;
+	background: url(img/background-up.png) center top no-repeat, url(img/background-down.png) center bottom -18px no-repeat;
 }
 
 .hero {
@@ -187,7 +187,7 @@ p {
 
 .news__title--icon::after {
 	content: "";
-	background: url(/img/news/news-icon.png) no-repeat;
+	background: url(img/news/news-icon.png) no-repeat;
 	position: absolute;
 	margin-left: 9px;
 	margin-top: 6px;
@@ -351,7 +351,7 @@ p {
 	display: block;
 	width: 489px;
 	height: 505px;
-	background: url(/img/about/about.png) center center / cover no-repeat;
+	background: url(img/about/about.png) center center / cover no-repeat;
 }
 
 .about__block::before, .about__content {
@@ -435,33 +435,33 @@ p {
 }
 
 .socials__item--icon--tg .socials__link {
-	background: url(/img/footer/telegram.png);
+	background: url(img/footer/telegram.png);
 }
 
 .socials__item--icon--tg .socials__link:hover {
-	background: url(/img/footer/telegram-hover.png);
+	background: url(img/footer/telegram-hover.png);
 }
 
 .socials__item--icon--vk .socials__link {
-	background: url(/img/footer/vk.png);
+	background: url(img/footer/vk.png);
 }
 
 .socials__item--icon--vk .socials__link:hover {
-	background: url(/img/footer/vk-hover.png);
+	background: url(img/footer/vk-hover.png);
 }
 
 .socials__item--icon--fb .socials__link {
-	background: url(/img/footer/fb.png);
+	background: url(img/footer/fb.png);
 }
 
 .socials__item--icon--fb .socials__link:hover {
-	background: url(/img/footer/fb-hover.png);
+	background: url(img/footer/fb-hover.png);
 }
 
 .socials__item--icon--inst .socials__link {
-	background: url(/img/footer/inst.png);
+	background: url(img/footer/inst.png);
 }
 
 .socials__item--icon--inst .socials__link:hover {
-	background: url(/img/footer/inst-hover.png);
+	background: url(img/footer/inst-hover.png);
 }
