@@ -6,6 +6,7 @@ body {
 	background: #17191C;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	margin: 0;
 }
 
 a {
@@ -208,7 +209,7 @@ p {
 }
 
 .news__item {
-	max-height: 450px;
+	min-height: 450px;
 	background: #fff;
 	border-radius: 5px;
 	display: inline-block;
@@ -309,13 +310,13 @@ p {
 
 .lastgame__date {
 	font-size: 14px;
-	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .lastgame__item-title {
 	font-size: 21px;
 	font-weight: bold;
-	padding-bottom: 14px;
+	margin-bottom: 14px;
 }
 
 .pagination {
