@@ -1,0 +1,48 @@
+.about {
+	margin-bottom: 50px;
+}
+
+.about__block {
+	display: flex;
+}
+
+.about__block::before {
+	content: "";
+	display: block;
+	width: 489px;
+	height: 505px;
+	background: url(../img/about/about.png) center center / cover no-repeat;
+}
+
+.about__block::before, .about__content {
+	display: block;
+	border-radius: 5px;
+}
+
+.about__content {
+	background: #8F00FF;
+	padding: 70px 199px 70px 80px;
+	max-width: 780px;
+	margin-left: -140px;
+	margin-top: 98px;
+}
+
+.about__title {
+	font-weight: bold;
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+
+.about__desc {
+	width: 501px;
+	margin-bottom: 40px;
+}
+
+.about__text {
+	margin-bottom: 20px;
+	line-height: 27px;
+}
+
+.about__decs p:last-child {
+	margin-bottom: 0;
+}

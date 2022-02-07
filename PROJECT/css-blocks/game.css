@@ -1,0 +1,38 @@
+.game {
+	display: flex;
+	padding: 58px 43px;
+}
+
+.game__img {
+	width: 44%;
+	height: 335px;
+	margin-right: 7%;
+	background: black;
+	display: flex;
+	align-items: center;
+	border-radius: 7px;
+}
+
+.game__img-elem {
+	border-radius: 7px;
+}
+
+.game__content {
+	flex: 1;
+}
+
+.game__title {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 22px;
+	color: #000000;
+}
+
+.game__desc {
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+
+.game__desc p {
+	margin-bottom: 35px;
+}

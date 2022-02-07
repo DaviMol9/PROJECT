@@ -1,0 +1,23 @@
+.footer {
+	height: 140px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-container__content {
+	border-top: 1px solid #353538;
+}
+
+.footer__col {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__logo {
+	margin-right: 130px;
+}
+
+.footer--games-page {
+	height: 132px;
+}

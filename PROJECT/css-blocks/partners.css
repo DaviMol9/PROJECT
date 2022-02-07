@@ -1,0 +1,29 @@
+.partners {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.partners__item {
+	margin-left: 115px;
+	margin-bottom: 80px;
+}
+
+.partners__item:nth-child(4n + 1) {
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+.partners__item:last-child {
+	margin-left: 80px;
+}
+
+.partners__link {
+	text-decoration: none;
+	display: flex;
+	height: 85px;
+	align-items: center;
+	justify-content: center;
+}
+
+.partners__link img {
+}

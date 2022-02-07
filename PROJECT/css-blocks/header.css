@@ -1,0 +1,11 @@
+.header {
+	padding-top: 26px;
+	margin-bottom:30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-reviews {
+	margin-bottom: 0;
+}
