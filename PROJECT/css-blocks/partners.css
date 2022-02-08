@@ -5,23 +5,26 @@
 }
 
 .partners__item {
-	margin-left: 115px;
-	margin-bottom: 80px;
+	margin-left: -47px;
+	width: 262px;
 }
 
 .partners__item:nth-child(4n + 1) {
 	margin-left: 0;
-	margin-bottom: 0;
 }
 
-.partners__item:last-child {
-	margin-left: 80px;
+.partners__item:nth-child(4n + 1) .partners__link {
+	justify-content: flex-start;
+}
+
+li .partners__item:nth-child(4n + 1) {
+	margin-left: 0;
 }
 
 .partners__link {
 	text-decoration: none;
 	display: flex;
-	height: 85px;
+	height: 125px;
 	align-items: center;
 	justify-content: center;
 }
