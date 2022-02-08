@@ -43,11 +43,8 @@
 .news__header {
 	min-height: 144px;
 	background: black;
-	text-align: center;
-}
-
-.news__img {
-	vertical-align: middle;
+	display: flex;
+	justify-content: center;
 }
 
 .news__content {
@@ -66,12 +63,9 @@
 }
 
 .news__feature-item {
-	
 	margin-bottom: 27px;
-}
-
-.news__feature-item:last-child {
-	width: 50%;
+	display: flex;
+	align-items: center;
 }
 
 .news__feature-img {
@@ -80,10 +74,6 @@
 
 .news__feature-text {
 	display: inline-block;
-}
-
-.news__feature-img {
-	vertical-align: bottom;
 }
 
 .news__text {

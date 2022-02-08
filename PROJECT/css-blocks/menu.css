@@ -1,13 +1,9 @@
-.menu {
-}
 
 .menu__list {
-	
+	display: flex;
 }
 
 .menu__item {
-	display: inline-block;
-	vertical-align: middle;
 	margin-right: 68px;
 }
 

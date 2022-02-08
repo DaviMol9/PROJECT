@@ -11,15 +11,19 @@
 .lastgame__list {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 55px;
 }
 
 .lastgame__item {
 	flex: 1;
 	margin-right: 20px;
-	margin-bottom: 55px;
 	border-radius: 5px;
 	position: relative;
 	overflow: hidden;
+}
+
+.lastgame__item:last-child {
+	margin-right: 0;
 }
 
 .lastgame__img {
