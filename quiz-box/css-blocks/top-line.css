@@ -1,9 +1,10 @@
 .top-line {
-	min-height: 412px;
+	min-height: 438px;
 	display: flex;
 	flex-direction: column;
 	padding-bottom: 21px;
 	background: url(../img/Mask\ Group.png) center top 50% no-repeat;
+	background-size: cover;
 }
 
 .top-line__container {

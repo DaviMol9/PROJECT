@@ -8,9 +8,9 @@
 }
 
 .game__img {
-	width: 44%;
-	height: 335px;
-	margin-right: 7%;
+	width: 43%;
+	height: 355px;
+	margin-right: 5%;
 	background: black;
 	display: flex;
 	align-items: center;
@@ -26,6 +26,7 @@
 
 .game__content {
 	flex: 1;
+	padding: 12px 0;
 }
 
 .game__title {
