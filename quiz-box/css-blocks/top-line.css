@@ -4,7 +4,7 @@
 	flex-direction: column;
 	padding-bottom: 21px;
 	background: url(../img/Mask\ Group.png) center top 50% no-repeat;
-	background-size: cover;
+	background-size: contain;
 }
 
 .top-line__container {
