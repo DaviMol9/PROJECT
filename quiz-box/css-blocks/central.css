@@ -1,0 +1,38 @@
+.central {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	animation: bounce 1.3s 1s forwards;
+	opacity: 0;
+}
+
+.central__logo {
+	margin-bottom: 38px;
+}
+
+@keyframes bounce {
+	0% {
+		transform: translateY(0);
+	}
+	20% {
+		transform: translateY(-30px);
+	}
+	30% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-15px);
+	}
+	60% {
+		transform: translateY(0);
+	}
+	70% {
+		transform: translateY(-5px);
+	}
+	80% {
+		transform: translateY(0);
+	}
+	100% {
+		opacity: 1;
+	}
+}

@@ -8,6 +8,10 @@
 	background: #f4f5f5;
 }
 
+.inner-section--reviews {
+	padding: 61px 0 97px;
+}
+
 .inner-section__title {
 	font-size: 48px;
 	font-weight: bold;

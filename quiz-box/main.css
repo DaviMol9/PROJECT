@@ -26,3 +26,16 @@
 @import url(./css-blocks/partners.css);
 
 @import url(./css-blocks/schedule.css);
+
+@import url(./css-blocks/reviews.css);
+@import url(./css-blocks/review.css);
+@import url(./css-blocks/avatar.css);
+@import url(./css-blocks/tag.css);
+
+@import url(./css-blocks/separator.css);
+
+@import url(./css-blocks/form.css);
+@import url(./css-blocks/controls.css);
+
+@import url(./css-blocks/central.css);
+@import url(./css-blocks/welcome.css);

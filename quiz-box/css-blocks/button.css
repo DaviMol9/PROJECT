@@ -38,3 +38,34 @@
 .button--radius--white:hover {
 	background: #741BBA;
 }
+
+.button--game--color--white {
+	background: white;
+	color: #741BBA;
+	border: 1px solid #741BBA;
+	padding: 16px 33px;
+}
+
+.button--game--color--white:hover {
+	background: #8F00FF;
+	color: white;
+}
+
+.button--color--black {
+	background: #202123;
+	color: white;
+}
+
+.button--color--black:hover {
+	background: #8E8E8E;
+}
+
+.button--welcome--color--active {
+	background: #741BBA;
+	box-shadow: 0 0 25px 0 rgba(143 0 255 .15);
+	padding: 16px 55px;
+}
+
+.button--welcome--color--active {
+	background: #8F00FF;
+}

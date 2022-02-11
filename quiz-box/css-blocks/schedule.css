@@ -1,3 +1,7 @@
+.schedule {
+	cursor: pointer;
+}
+
 .schedule__time {
 	position: absolute;
 	width: 157px;

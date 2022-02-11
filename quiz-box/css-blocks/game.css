@@ -1,10 +1,10 @@
 .game {
 	display: flex;
-	margin-bottom: 49px;
+	margin-bottom: 22px;
 }
 
 .game:last-child {
-	margin-bottom: 70px;
+	margin-bottom: 45px;
 }
 
 .game__img {
