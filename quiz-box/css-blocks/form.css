@@ -12,7 +12,7 @@
 	padding: 22px 30px;
 	font-size: 18px;
 	color: #202123;
-	outline: none;
+	outline: transparent;
 }
 
 .form__input::placeholder {
@@ -21,6 +21,10 @@
 
 .form__input:last-child {
 	margin-right: 0;
+}
+
+.form__input:focus {
+	border: 1px solid #8F00FF;
 }
 
 .form__input--textarea {
