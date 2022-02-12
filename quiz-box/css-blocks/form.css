@@ -12,6 +12,7 @@
 	padding: 22px 30px;
 	font-size: 18px;
 	color: #202123;
+	outline: none;
 }
 
 .form__input::placeholder {
@@ -24,6 +25,7 @@
 
 .form__input--textarea {
 	height: 232px;
+	resize: none;
 }
 
 .form__controls {

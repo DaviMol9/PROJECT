@@ -13,10 +13,12 @@
 .button--color--active:hover {
 	background: #741BBA;
 	box-shadow: 0 0 25px 0 rgba(143 0 255 .15);
+	/* transition: box-shadow, 3s; */
 }
 
 .button--color--active {
 	background: #8F00FF;
+	transition: .5s;
 }
 
 .button--color--white {
@@ -24,6 +26,7 @@
 	color: #741BBA;
 	border: 1px solid #741BBA;
 	padding: 16px 25px;
+	transition: .5s;
 }
 
 .button--color--white:hover {
@@ -33,6 +36,7 @@
 
 .button--radius--white {
 	border: 1px solid white;
+	transition: .5s;
 }
 
 .button--radius--white:hover {
@@ -44,6 +48,7 @@
 	color: #741BBA;
 	border: 1px solid #741BBA;
 	padding: 16px 33px;
+	transition: .5s;
 }
 
 .button--game--color--white:hover {
@@ -54,18 +59,20 @@
 .button--color--black {
 	background: #202123;
 	color: white;
+	transition: .5s;
 }
 
 .button--color--black:hover {
 	background: #8E8E8E;
 }
 
-.button--welcome--color--active {
+.button--welcome--color--active:hover {
 	background: #741BBA;
 	box-shadow: 0 0 25px 0 rgba(143 0 255 .15);
-	padding: 16px 55px;
+	transition: .5s;
 }
 
 .button--welcome--color--active {
 	background: #8F00FF;
+	padding: 16px 55px;
 }
